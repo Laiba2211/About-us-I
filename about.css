@@ -1,0 +1,35 @@
+
+
+ #img{
+    margin: 25px 50px;
+ }
+ #maincontainer{
+    display:flex;
+    height: 350px;
+ }
+ 
+#Leftdiv{
+    flex: 1;
+    
+}
+
+#Rightdiv{
+    flex: 3;
+    
+}
+.hirebutton{
+    background-color: #008CBA;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+
+.hirebutton:hover {
+    background-color: #ffffff;
+    color: #008CBA;
+    cursor: pointer;
+  }
